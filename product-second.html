@@ -23,6 +23,16 @@
         <header class="header">
             <div class="big-container">
                 <div class="header__inner">
+                    <div class="header__burger burger">
+                        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.5833 8.75H29.1666M5.83325 17.5H29.1666H10.2083M5.83325 26.25H20.4166"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 19L12 12M12 12L19 5M12 12L5 5M12 12L19 19" stroke="white" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
                     <a class="header__logo logo" href="#">
                         <img src="images/logo.svg" alt="logo">
                     </a>
@@ -34,9 +44,27 @@
                                 </a>
                             </li>
                             <li class="menu-list__item">
-                                <a class="menu-list__link" href="#">
-                                    Lösungen
-                                </a>
+                                <div class="menu-list__wrap">
+                                    <a class="menu-list__link" href="#">
+                                        <span>
+                                            Lösungen
+                                        </span>
+                                    </a>
+                                    <svg class="menu-list__dropdown" width="24" height="13" viewBox="0 0 24 13"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3944_6793)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.2891 10.6569L5.63211 4.99994L7.04611 3.58594L11.9961 8.53594L16.9461 3.58594L18.3601 4.99994L12.7031 10.6569C12.5156 10.8444 12.2613 10.9497 11.9961 10.9497C11.7309 10.9497 11.4766 10.8444 11.2891 10.6569Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3944_6793">
+                                                <rect width="12" height="24" fill="white"
+                                                    transform="translate(24 0.5) rotate(90)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
                                 <div class="menu-list__navigation navigation navigation--solutions">
                                     <div class="navigation__close">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -159,11 +187,51 @@
                                         </div>
                                     </div>
                                 </div>
+                                <ul class="menu-list__sublist sublist">
+                                    <li class="sublist__item">
+                                        <a class="sublist__link" href="#">
+                                            Gewerbliche und industrielle ESS
+                                        </a>
+                                    </li>
+                                    <li class="sublist__item">
+                                        <a class="sublist__link" href="#">
+                                            Stromversorgungs ESS
+                                        </a>
+                                    </li>
+                                    <li class="sublist__item">
+                                        <a class="sublist__link" href="#">
+                                            ESS für Wohngebäude
+                                        </a>
+                                    </li>
+                                    <li class="sublist__item">
+                                        <a class="sublist__link" href="#">
+                                            Referenzprojekte
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="menu-list__item">
-                                <a class="menu-list__link" href="#">
-                                    Produkte
-                                </a>
+                                <div class="menu-list__wrap">
+                                    <a class="menu-list__link" href="#">
+                                        <span>
+                                            Produkte
+                                        </span>
+                                    </a>
+                                    <svg class="menu-list__dropdown" width="24" height="13" viewBox="0 0 24 13"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3944_6793)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.2891 10.6569L5.63211 4.99994L7.04611 3.58594L11.9961 8.53594L16.9461 3.58594L18.3601 4.99994L12.7031 10.6569C12.5156 10.8444 12.2613 10.9497 11.9961 10.9497C11.7309 10.9497 11.4766 10.8444 11.2891 10.6569Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3944_6793">
+                                                <rect width="12" height="24" fill="white"
+                                                    transform="translate(24 0.5) rotate(90)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
                                 <div class="menu-list__navigation navigation navigation--products">
                                     <div class="navigation__close">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -313,6 +381,23 @@
                                         </div>
                                     </div>
                                 </div>
+                                <ul class="menu-list__sublist sublist">
+                                    <li class="sublist__item">
+                                        <a class="sublist__link" href="#">
+                                            All-in-One
+                                        </a>
+                                    </li>
+                                    <li class="sublist__item">
+                                        <a class="sublist__link" href="#">
+                                            Leistungsumwandlungssystem
+                                        </a>
+                                    </li>
+                                    <li class="sublist__item">
+                                        <a class="sublist__link" href="#">
+                                            Wohngebiet
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="menu-list__item">
                                 <a class="menu-list__link" href="#">
@@ -340,6 +425,7 @@
                         <div class="product__inner">
                             <div class="product__img" data-aos="zoom-in">
                                 <img src="images/product-img-2.png" alt="img">
+                                <img src="images/product-img-2-mobile.png" alt="img">
                             </div>
                             <div class="product__body product-body" data-aos="fade-up">
                                 <h1 class="product-body__title">
@@ -379,6 +465,98 @@
                         </div>
                     </div>
                 </section>
+                <div class="cases-pupups__popup popup popup--specifics popup--specifics-second">
+                    <div class="popup__close">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 19L12 12M12 12L19 5M12 12L5 5M12 12L19 19" stroke="white" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="popup__inner">
+                        <div class="popup__specifics specifics">
+                            <div class="specifics__body specifics-body">
+                                <div class="specifics-body__heading specifics-heading">
+                                    <div class="specifics-heading__suptext">
+                                        Technische Spezifikationen
+                                    </div>
+                                    <h2 class="specifics-heading__title">
+                                        Agave TH
+                                    </h2>
+                                    <div class="specifics-heading__subtext">
+                                        Agave TH
+                                    </div>
+                                </div>
+                                <div class="specifics-body__img">
+                                    <img src="images/specifics-img-2.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="specifics__content specifics-content">
+                                <ul class="specifics-content__list specifics-list">
+                                    <li class="specifics-list__item">
+                                        <div class="specifics-list__suptext">
+                                            Nennleistung AC
+                                        </div>
+                                        <div class="specifics-list__text">
+                                            100kW
+                                        </div>
+                                    </li>
+                                    <li class="specifics-list__item">
+                                        <div class="specifics-list__suptext">
+                                            Batterietyp
+                                        </div>
+                                        <div class="specifics-list__text">
+                                            LFP (CATL)
+                                        </div>
+                                    </li>
+                                    <li class="specifics-list__item">
+                                        <div class="specifics-list__suptext">
+                                            Batteriekapazität
+                                        </div>
+                                        <div class="specifics-list__text">
+                                            233kWh
+                                        </div>
+                                    </li>
+                                    <li class="specifics-list__item">
+                                        <div class="specifics-list__suptext">
+                                            Nennspannung DC
+                                        </div>
+                                        <div class="specifics-list__text">
+                                            832V
+                                        </div>
+                                    </li>
+                                    <li class="specifics-list__item">
+                                        <div class="specifics-list__suptext">
+                                            Schutzart
+                                        </div>
+                                        <div class="specifics-list__text">
+                                            IP55
+                                        </div>
+                                    </li>
+                                    <li class="specifics-list__item">
+                                        <div class="specifics-list__suptext">
+                                            Abmessungen (B*T*H)
+                                        </div>
+                                        <div class="specifics-list__text">
+                                            1400*1350*2100m
+                                            m
+                                        </div>
+                                    </li>
+                                    <li class="specifics-list__item">
+                                        <div class="specifics-list__suptext">
+                                            Kühlmethode
+                                        </div>
+                                        <div class="specifics-list__text">
+                                            Flüssigkeitskühlu
+                                            ng (PCS) / Flüssi
+                                            gkeitskühlung (B
+                                            attery)
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <section class="main__cards cards">
                     <div class="container">
                         <div class="cards__inner">
@@ -682,7 +860,7 @@
                             </div>
                             <div class="modules__body modules-body" data-aos="fade-up">
                                 <h2 class="modules-body__title">
-                                    Hochstandard-
+                                    Hochstandard- <br>
                                     Modul.
                                 </h2>
                                 <p class="modules-body__text">
@@ -713,7 +891,9 @@
                                 High Performance <br>
                                 Platform Layer Guard.
                             </h2>
-                            <p class="details-heading__text" data-aos="fade-up">
+                        </div>
+                        <div class="details__inner">
+                            <p class="details__text" data-aos="fade-up">
                                 Vollständig selbstentwickelt
                                 <span>
                                     BMS und EMS, Integration von Cloud-
@@ -724,9 +904,9 @@
                                 Geräts. Erleben Sie die nächste Generation der Energiespeicherung
                                 zu Hause mit Agave TH.
                             </p>
-                        </div>
-                        <div class="details__img" data-aos="zoom-in">
-                            <img src="images/details-img.jpg" alt="img">
+                            <div class="details__img" data-aos="zoom-in">
+                                <img src="images/details-img.jpg" alt="img">
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -956,7 +1136,14 @@
                                 <div class="contact-form__inner">
                                     <div class="contact-form__wrapper">
                                         <input class="contact-form__input" type="text" placeholder="Ihr Name">
-                                        <!--  -->
+                                        <div class="contact-form__select custom-select">
+                                            <select>
+                                                <option value="0">Ihr Land/Region:</option>
+                                                <option value="1">Region 1</option>
+                                                <option value="2">Region 2</option>
+                                                <option value="3">Region 3</option>
+                                            </select>
+                                        </div>
                                     </div>
                                     <div class="contact-form__wrapper">
                                         <input class="contact-form__input" type="email" placeholder="E-Mail Adresse">
@@ -973,98 +1160,6 @@
                         </div>
                     </div>
                 </section>
-                <div class="cases-pupups__popup popup popup--specifics">
-                    <div class="popup__close">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5 19L12 12M12 12L19 5M12 12L5 5M12 12L19 19" stroke="white" stroke-width="1.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
-                    <div class="popup__inner">
-                        <div class="popup__specifics specifics">
-                            <div class="specifics__body specifics-body">
-                                <div class="specifics-body__heading specifics-heading">
-                                    <div class="specifics-heading__suptext">
-                                        Technische Spezifikationen
-                                    </div>
-                                    <h2 class="specifics-heading__title">
-                                        Agave TH
-                                    </h2>
-                                    <div class="specifics-heading__subtext">
-                                        Agave TH
-                                    </div>
-                                </div>
-                                <div class="specifics-body__img">
-                                    <img src="images/specifics-img-2.png" alt="img">
-                                </div>
-                            </div>
-                            <div class="specifics__content specifics-content">
-                                <ul class="specifics-content__list specifics-list">
-                                    <li class="specifics-list__item">
-                                        <div class="specifics-list__suptext">
-                                            Nennleistung AC
-                                        </div>
-                                        <div class="specifics-list__text">
-                                            100kW
-                                        </div>
-                                    </li>
-                                    <li class="specifics-list__item">
-                                        <div class="specifics-list__suptext">
-                                            Batterietyp
-                                        </div>
-                                        <div class="specifics-list__text">
-                                            LFP (CATL)
-                                        </div>
-                                    </li>
-                                    <li class="specifics-list__item">
-                                        <div class="specifics-list__suptext">
-                                            Batteriekapazität
-                                        </div>
-                                        <div class="specifics-list__text">
-                                            233kWh
-                                        </div>
-                                    </li>
-                                    <li class="specifics-list__item">
-                                        <div class="specifics-list__suptext">
-                                            Nennspannung DC
-                                        </div>
-                                        <div class="specifics-list__text">
-                                            832V
-                                        </div>
-                                    </li>
-                                    <li class="specifics-list__item">
-                                        <div class="specifics-list__suptext">
-                                            Schutzart
-                                        </div>
-                                        <div class="specifics-list__text">
-                                            IP55
-                                        </div>
-                                    </li>
-                                    <li class="specifics-list__item">
-                                        <div class="specifics-list__suptext">
-                                            Abmessungen (B*T*H)
-                                        </div>
-                                        <div class="specifics-list__text">
-                                            1400*1350*2100m
-                                            m
-                                        </div>
-                                    </li>
-                                    <li class="specifics-list__item">
-                                        <div class="specifics-list__suptext">
-                                            Kühlmethode
-                                        </div>
-                                        <div class="specifics-list__text">
-                                            Flüssigkeitskühlu
-                                            ng (PCS) / Flüssi
-                                            gkeitskühlung (B
-                                            attery)
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </main>
             <footer class="footer" data-aos="fade">
                 <div class="big-container">
@@ -1141,11 +1236,18 @@
                                     <h5 class="nav-head__title">
                                         Über uns
                                     </h5>
-                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.99993 2.03516V17.4637M1.28564 9.74944H16.7142" stroke="white"
-                                            stroke-width="2.20409" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                    <div class="nav-head__icons">
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.99993 2.03516V17.4637M1.28564 9.74944H16.7142" stroke="white"
+                                                stroke-width="2.20409" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <svg width="14" height="3" viewBox="0 0 14 3" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1.16153H13" stroke="white" stroke-width="1.71429"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </div>
                                 <ul class="nav__list nav-list">
                                     <li class="nav-list__item">
@@ -1190,11 +1292,18 @@
                                     <h5 class="nav-head__title">
                                         Über uns
                                     </h5>
-                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.99993 2.03516V17.4637M1.28564 9.74944H16.7142" stroke="white"
-                                            stroke-width="2.20409" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                    <div class="nav-head__icons">
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.99993 2.03516V17.4637M1.28564 9.74944H16.7142" stroke="white"
+                                                stroke-width="2.20409" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <svg width="14" height="3" viewBox="0 0 14 3" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1.16153H13" stroke="white" stroke-width="1.71429"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </div>
                                 <ul class="nav__list nav-list">
                                     <li class="nav-list__item">
@@ -1234,11 +1343,18 @@
                                     <h5 class="nav-head__title">
                                         Über uns
                                     </h5>
-                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.99993 2.03516V17.4637M1.28564 9.74944H16.7142" stroke="white"
-                                            stroke-width="2.20409" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                    <div class="nav-head__icons">
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.99993 2.03516V17.4637M1.28564 9.74944H16.7142" stroke="white"
+                                                stroke-width="2.20409" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <svg width="14" height="3" viewBox="0 0 14 3" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1.16153H13" stroke="white" stroke-width="1.71429"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </div>
                                 <ul class="nav__list nav-list">
                                     <li class="nav-list__item">
@@ -1278,11 +1394,18 @@
                                     <h5 class="nav-head__title">
                                         UNTERSTÜTZUNG
                                     </h5>
-                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.99993 2.03516V17.4637M1.28564 9.74944H16.7142" stroke="white"
-                                            stroke-width="2.20409" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                    <div class="nav-head__icons">
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.99993 2.03516V17.4637M1.28564 9.74944H16.7142" stroke="white"
+                                                stroke-width="2.20409" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <svg width="14" height="3" viewBox="0 0 14 3" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1.16153H13" stroke="white" stroke-width="1.71429"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </div>
                                 <ul class="nav__list nav-list">
                                     <li class="nav-list__item">
@@ -1317,20 +1440,30 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="nav__other nav-other">
-                                <a class="nav-other__link" href="#">
-                                    Richtlinie zur Offenlegung von
-                                    Sicherheitslücken
-                                </a>
-                                <a class="nav-other__link" href="#">
-                                    Datenschutzerklärung
-                                </a>
-                                <a class="nav-other__link" href="#">
-                                    Cookie-Richtlinie
-                                </a>
-                                <a class="nav-other__link" href="#">
-                                    Website-Karte
-                                </a>
+                            <div class="nav__wrapper nav__wrapper--other">
+                                <ul class="nav__list nav-list">
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="#">
+                                            Richtlinie zur Offenlegung von
+                                            Sicherheitslücken
+                                        </a>
+                                    </li>
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="#">
+                                            Datenschutzerklärung
+                                        </a>
+                                    </li>
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="#">
+                                            Cookie-Richtlinie
+                                        </a>
+                                    </li>
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="#">
+                                            Website-Karte
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </nav>
                     </div>
